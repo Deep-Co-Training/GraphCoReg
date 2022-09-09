@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  dev:
+    # Will build ./docker/Dockerfile
+    # This Dockerfile is for development
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile
+    volumes:
+      - ./:/MultiModalTVShowSeg-2022
