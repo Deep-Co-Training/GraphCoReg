@@ -20,6 +20,6 @@ jobs:
         with:
           registry: ghcr.io
           dockerfile: docker/Dockerfile
-          image_name: "Deep-Co-Training/GraphCoReg"
+          image_name: "deep-co-training/graphcoreg"
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
